@@ -1,0 +1,98 @@
+[
+    {
+        "action": "created",
+        "path": "/home/umut/bsm/test/deneme1.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:05"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:05"
+    },
+    {
+        "action": "opened",
+        "path": "/home/umut/bsm/test/deneme1.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:05"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test/deneme1.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:05"
+    },
+    {
+        "action": "closed",
+        "path": "/home/umut/bsm/test/deneme1.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:05"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:05"
+    },
+    {
+        "action": "created",
+        "path": "/home/umut/bsm/test/deneme2.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:27"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:27"
+    },
+    {
+        "action": "opened",
+        "path": "/home/umut/bsm/test/deneme2.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:27"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test/deneme2.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:27"
+    },
+    {
+        "action": "closed",
+        "path": "/home/umut/bsm/test/deneme2.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:27"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:27"
+    },
+    {
+        "action": "deleted",
+        "path": "/home/umut/bsm/test/deneme2.txt",
+        "is_directory": false,
+        "timestamp": "2024-12-21 18:51:44"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:44"
+    },
+    {
+        "action": "created",
+        "path": "/home/umut/bsm/test/deneme3",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:59"
+    },
+    {
+        "action": "modified",
+        "path": "/home/umut/bsm/test",
+        "is_directory": true,
+        "timestamp": "2024-12-21 18:51:59"
+    }
+]

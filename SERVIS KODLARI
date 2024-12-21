@@ -1,0 +1,13 @@
+[Unit]
+Description=BSM Klasör İzleme Servisi
+After=network.target
+
+[Service]
+ExecStart=/home/umut/bsm/env/bin/python /home/umut/bsm/script.py
+Restart=always
+User=umut
+WorkingDirectory=/home/umut/bsm
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,22 @@
+mkdir -p /home/umut/bsm/logs logs klasoru olusturmak
+mkdir -p /home/umut/bsm/test test klasoru olusturmak 
+python3 -m venv /home/umut/bsm/env                             source /home/umut/bsm/env/bin/activate       python sanal ortam olusturma 
+pip install watchdog python kutuphanesi kurmak icin 
+nano /home/umut/bsm/script.py python script kodumuzu acar
+ctrl+o +enter ismi kaydeder cikmak icin ctrl+x
+source /home/umut/bsm/env/bin/activate  
+python /home/umut/bsm/script.py &
+7 ve 8. maddeler script kodumuzu test ediyor 
+ctrl+c scripti durdurur
+sudo nano /etc/systemd/system/script.service Servis Dosyasını Oluşturma
+sudo systemctl daemon-reload Servis Yapılandırmasını Yenileyin
+sudo systemctl enable script.service Servisi Etkinleştirin
+sudo systemctl start script.service Servisi Başlat
+sudo systemctl status script.service Servisin Çalıştığını Kontrol Etme
+touch /home/umut/bsm/test/testfile.txt dosya olusturma
+rm /home/umut/bsm/test/testfile.txt dosya silme
+cat /home/umut/bsm/logs/changes.json degisimleri ekrana yazma
+sudo systemctl stop script.service servisi durdurmak 
+sudo systemctl restart script.service Servisi yeniden başlatmak 
+
+
